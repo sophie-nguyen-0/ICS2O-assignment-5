@@ -26,5 +26,5 @@ function myButtonClicked() {
     answer *= num
   }
 
-  document.getElementById("answer")
+  document.getElementById("answer").innerHTML = "equals to: " + answer
 }
