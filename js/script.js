@@ -17,8 +17,8 @@ if (navigator.serviceWorker) {
  * this function
  */
 function myButtonClicked() {
-  const num = parseInt(document.getElementById('num').value)
-  const exp = parseInt(document.getElementById('exponent').value)
+  const num = parseInt(document.getElementById("num").value)
+  const exp = parseInt(document.getElementById("exponent").value)
 
   const answer = 1
 
@@ -26,5 +26,5 @@ function myButtonClicked() {
     answer *= num
   }
 
-  document.getElementById('answer')
+  document.getElementById("answer")
 }
