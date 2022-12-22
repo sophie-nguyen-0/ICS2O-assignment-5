@@ -37,6 +37,9 @@
                 <mxCell id="13" value="answer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#660033;" vertex="1" parent="1">
                     <mxGeometry x="80" y="480" width="60" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="14" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#660033;strokeColor=#CC0066;" vertex="1" parent="1">
+                    <mxGeometry x="384" y="257.5" width="60" height="105" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
