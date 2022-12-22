@@ -21,9 +21,11 @@ function myButtonClicked() {
   const exp = parseInt(document.getElementById("exponent").value)
 
   let answer = 1
+  let count = 0
 
-  for (let count = 0; count < exp || count == exp; count++) {
+  while(count<exp || count == num) {
     answer *= num
+    count++
   }
 
   document.getElementById("answer").innerHTML = "equals to: " + answer
