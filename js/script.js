@@ -20,7 +20,7 @@ function myButtonClicked() {
   const num = parseInt(document.getElementById("num").value)
   const exp = parseInt(document.getElementById("exponent").value)
 
-  const answer = 1
+  let answer = 1
 
   for (let count = 0; count < exp || count == exp; count++) {
     answer *= num
