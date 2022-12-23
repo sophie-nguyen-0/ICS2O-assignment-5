@@ -23,9 +23,21 @@ function myButtonClicked() {
   let answer = 1
   let count = 0
 
-  while (count < exp || count == num) {
-    answer *= num
-    count++
+  if (exp > 0 ){
+    while (count < exp || count == exp) {
+      answer *= num
+      count++
+    }
+  }
+  else if (exp < 0) {
+    while (count > exp) {
+      answer /= num
+
+      count--
+    }
+  }
+  else {
+    answer = 1
   }
 
   document.getElementById("answer").innerHTML = "equals to: " + answer
