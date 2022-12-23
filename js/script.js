@@ -23,20 +23,18 @@ function myButtonClicked() {
   let answer = 1
   let count = 0
 
-  if (exp > 0 ){
+  if (exp > 0) {
     while (count < exp || count == exp) {
       answer *= num
       count++
     }
-  }
-  else if (exp < 0) {
+  } else if (exp < 0) {
     while (count > exp) {
       answer /= num
 
       count--
     }
-  }
-  else {
+  } else {
     answer = 1
   }
 
